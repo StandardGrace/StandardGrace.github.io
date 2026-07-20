@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patrick Grace - Full-Stack Developer</title>
+  <meta name="description" content="Patrick Grace - full-stack developer with 8 years of software QA experience. React, Angular, Node.js, Python. Ottawa-Montreal corridor and remote.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="nav-brand" href="#top">patrickmgrace.com</a>
+      <ul class="nav-links">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <section class="hero">
+      <h1>Patrick Grace</h1>
+      <p class="hero-role">Full-Stack Developer</p>
+      <p class="hero-terminal"><span class="prompt">$</span> 8 years testing software. Now building it.</p>
+      <p class="hero-meta">Ottawa-Montreal corridor · remote-friendly</p>
+      <div class="hero-links">
+        <a href="https://github.com/StandardGrace" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/patrickmgrace/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:patrick.m.grace@outlook.com">Email</a>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2><span class="eyebrow">// projects</span></h2>
+
+      <article class="project project-featured">
+        <div class="project-head">
+          <h3>Spotlight Alexandria</h3>
+          <span class="badge">Featured</span>
+        </div>
+        <p>
+          A three-service application built toward commercial deployment:
+          a React + Vite front end with bilingual (EN/FR) internationalization,
+          an Express API backend that proxies external services so API keys
+          never reach the browser, and a standalone Node.js scraper service
+          with scheduled jobs, caching, and stale-cache failover.
+        </p>
+        <p class="project-stack">React · Vite · Express · Node.js · i18n · Docker</p>
+        <div class="project-links">
+          <!-- TODO: add live site URL when deployed -->
+          <a href="https://github.com/StandardGrace/spotlight-alexandria" target="_blank" rel="noopener">Repo + decision log</a>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-head">
+          <h3>Product Hub</h3>
+        </div>
+        <p>
+          An Angular application built as diploma coursework: component
+          architecture with parent-child data flow via @Input(), template
+          iteration with @for, and HttpClient integration against a REST API.
+        </p>
+        <p class="project-stack">Angular · TypeScript · HttpClient · REST</p>
+        <div class="project-links">
+          <!-- TODO: swap in real repo URL after cleanup -->
+          <a href="https://github.com/StandardGrace" target="_blank" rel="noopener">Repo</a>
+        </div>
+      </article>
+    </section>
+
+    <section id="experience" class="section">
+      <h2><span class="eyebrow">// experience</span></h2>
+      <ul class="exp-list">
+        <li>
+          <div>
+            <span class="exp-title">Full-Stack Web Development Diploma</span>
+            <span class="exp-org">in progress</span>
+          </div>
+          <span class="exp-dates">2025 - present</span>
+        </li>
+        <li>
+          <div>
+            <span class="exp-title">QA Manager</span>
+            <span class="exp-org">Prodigy Education</span>
+          </div>
+          <span class="exp-dates">2019 - 2022</span>
+        </li>
+        <li>
+          <div>
+            <span class="exp-title">QA Analyst roles</span>
+            <span class="exp-org">SaaS environments</span>
+          </div>
+          <span class="exp-dates">2015 - 2026</span>
+        </li>
+      </ul>
+      <p class="exp-note">
+        Eight years embedded in Agile software teams - sprint planning,
+        release coordination, risk-based regression on twice-weekly release
+        cycles, and leading a QA team of six with a matrix team of fifteen.
+      </p>
+    </section>
+
+    <section id="skills" class="section">
+      <h2><span class="eyebrow">// skills</span></h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Languages and frameworks</h3>
+          <p>JavaScript · TypeScript · Python · React · Angular · Node.js · Express · Flask</p>
+        </div>
+        <div class="skill-group">
+          <h3>Tools and infrastructure</h3>
+          <p>Git · Docker · Linux · MongoDB · Postman · n8n · self-hosted homelab (5 nodes)</p>
+        </div>
+        <div class="skill-group">
+          <h3>QA and process</h3>
+          <p>Agile · Scrum · Kanban · TestRail · Jira · risk-based testing · test automation analysis</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-contact">
+      <h2><span class="eyebrow">// contact</span></h2>
+      <p>
+        <a href="mailto:patrick.m.grace@outlook.com">patrick.m.grace@outlook.com</a>
+        · <a href="https://www.linkedin.com/in/patrickmgrace/" target="_blank" rel="noopener">LinkedIn</a>
+        · <a href="https://github.com/StandardGrace" target="_blank" rel="noopener">GitHub</a>
+      </p>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>Built with HTML, CSS, and JavaScript. No framework required.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
