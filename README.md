@@ -27,9 +27,7 @@ Personal portfolio site. Vanilla HTML, CSS, and JavaScript - no framework, no bu
 3. Back in Pages settings, tick "Enforce HTTPS" once the certificate provisions
    (can take up to an hour after DNS propagates)
 
-## TODO before calling it done
+## TODO
 
-- [ ] Verify experience dates and wording against current CV
-- [ ] Swap Product Hub repo link to the real repo after cleanup
 - [ ] Add Spotlight Alexandria live URL when deployed
 - [ ] Add Python/Flask project card when the module produces one
