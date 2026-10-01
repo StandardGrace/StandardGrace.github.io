@@ -1,6 +1,35 @@
-# patrickmgrace.com
+## Project Name
+patrickmgrace.com
 
+## Project Description
 Personal portfolio site. Vanilla HTML, CSS, and JavaScript - no framework, no build step.
+
+It introduces me as a full-stack developer with eight years of software QA experience, showcases my projects, experience, and skills, and gives visitors a way to get in touch. The site is hosted on GitHub Pages and served at [patrickmgrace.com](https://patrickmgrace.com).
+
+## Technologies
+- HTML
+- CSS
+- JavaScript
+- Google Fonts (Space Grotesk, JetBrains Mono)
+- GitHub Pages
+
+## How to Run
+1. Clone or download this repository.
+2. Open `index.html` in any modern web browser.
+
+No installation, build step, or server is required. An internet connection is needed for the Google Fonts to load; without it, the page falls back to system fonts. The live site is at [patrickmgrace.com](https://patrickmgrace.com).
+
+## Features
+- Single-page layout with hero, projects, experience, skills, and contact sections
+- Project cards with a short description, tech stack, status badge, and link to each repository
+- Sticky navigation bar that highlights the section currently on screen, using IntersectionObserver
+- Smooth scrolling between sections, turned off automatically for visitors who have reduced motion enabled
+- Dark theme built on design tokens (CSS custom properties) for colours and fonts
+- Responsive layout that adjusts for small screens
+- Contact links for email, LinkedIn, and GitHub
+
+## Author
+Patrick Grace — [patrickmgrace.com](https://www.patrickmgrace.com/) — GitHub: [StandardGrace](https://github.com/StandardGrace)
 
 ## Structure
 
